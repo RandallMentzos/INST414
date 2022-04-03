@@ -1,1 +1,41 @@
 /* styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: ‘Segoe UI’, Candara, ‘Bitstream Vera Sans’, ‘DejaVu Sans’,
+    ‘Bitsream Vera Sans’, ‘Trebuchet MS’, Verdana, ‘Verdana Ref’, sans-serif;
+}
+
+h1 {
+    min-width: 600px;
+    background-color: rgb(44, 110, 172);
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    background-color: rgba(36, 134, 126, 0.932);
+    border: 1px rgb(4, 80, 50) solid;
+    margin: 10 10;
+}
+
+.form_entry {
+    flex: 1 1 auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+.form_label {
+    flex: 2 1 auto;
+    width: 80%;
+    color: #fff;
+}
