@@ -1,0 +1,19 @@
+{
+  "name": "spotify-streams-by-region",
+  "version": "1.0.0",
+  "description": "Randall Mentzos's Repo for INST414 Data Science Techniques",
+  "main": "script.js",
+  "scripts": {
+    "test": "console.log('Test Command')"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RandallMentzos/INST414.git"
+  },
+  "author": "Randall Mentzos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RandallMentzos/INST414/issues"
+  },
+  "homepage": "https://github.com/RandallMentzos/INST414#readme"
+}
