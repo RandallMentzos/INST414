@@ -32,6 +32,7 @@ async function MainEvent() {
             return;
         } else {
             console.log('clicked');
+            console.log(window.location.search.length)
             requestAuth(this_id, this_secret);
         }
     })
